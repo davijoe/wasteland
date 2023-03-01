@@ -2,7 +2,7 @@ body{
     background-color: #F8F7FF;
 }
 
-/* Add a black background color to the top navigation */
+
 .topnav {
     font-family:  "Arial Black";
     background-color: #35524A;
@@ -13,7 +13,7 @@ body{
 
 }
 
-/* Style the links inside the navigation bar */
+
 .topnav a {
     float: left;
     display: block;
@@ -24,19 +24,35 @@ body{
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
+
 .topnav a:hover {
     background-color: #FCAA67;
     color: #241623;
 }
 
-/* Add an active class to highlight the current page */
+
 .topnav a.active {
     background-color: #3DA5D9;
     color: #F8F7FF;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
+
 .topnav .icon {
     display: none;
 }
+
+.column{
+    display: flex;
+    position: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    list-style-type: none;
+}
+
+.blogpost{
+    display: block;
+    align-items: center;
+    width: 100%;
+}
+
