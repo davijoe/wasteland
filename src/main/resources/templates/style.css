@@ -6,6 +6,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #F8F7FF;
+    font-family: "Microsoft New Tai Lue";
 }
 
 /* Add a black background color to the top navigation */
@@ -57,6 +58,7 @@ body{
     margin: 30%;
     margin-right: 30%;
     margin-top: 50px;
+    background-color: white;
 }
 
 .article{
