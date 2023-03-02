@@ -94,3 +94,20 @@ body{
     background-color: #FCAA67;
     color: #241623;
 }
+
+.bigger-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: normal;
+    justify-content: center;
+    max-width: 30%;
+    margin-top: 50px;
+    background-color: white;
+    overflow-wrap: break-word;
+}
+
+h2{
+    color: #3DA5D9;
+    justify-content: center;
+}
+
